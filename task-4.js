@@ -1,0 +1,18 @@
+// Problem-04: Same Same But Different  😕 
+function isSame(arr1, arr2) {
+    // You have to write your code here
+    if (!Array.isArray(arr1) || !Array.isArray(arr2)) {
+        return "Invalid";
+    }
+    if (arr1.length !== arr2.length) {
+        return false;
+    }
+    for (let i = 0; i <= arr1.length; i++) {
+        if (arr1[i] !== arr2[i]) {
+            return false;
+        }
+        return true;
+    }
+}
+// console.log(isSame(123, [1, 2]));
+// console.log(isSame([1, 2, 3], [1, 2, 3]));
