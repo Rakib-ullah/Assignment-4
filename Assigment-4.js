@@ -53,13 +53,6 @@ function bestTeam(player1, player2) {
     }
 
 }
-// const Germany = { name: "Germany", foul: 12, cardY: 0, cardR: 0 };
-// const Sweden = { name: "Sweden", foul: 7, cardY: 4, cardR: 1 };
-
-
-// const wellplayed = bestTeam(Germany, Sweden);
-// console.log(wellplayed);
-
 
 
 
@@ -81,10 +74,6 @@ function isSame(arr1, arr2) {
         return true;
     }
 }
-// console.log(isSame(123, [1, 2]));
-// console.log(isSame([1, 2, 3], [1, 2, 3]));
-
-
 
 
 
@@ -109,6 +98,3 @@ function resultReport(marks) {
     let finalScore = Math.round(totalMark / marks.length);
     return { finalScore, pass, fail };
 }
-
-// console.log(resultReport([50, 30, 80, 70]));
-// console.log(resultReport("Rakib")); 

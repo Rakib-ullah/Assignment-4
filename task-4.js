@@ -14,5 +14,5 @@ function isSame(arr1, arr2) {
         return true;
     }
 }
-// console.log(isSame(123, [1, 2]));
-// console.log(isSame([1, 2, 3], [1, 2, 3]));
+console.log(isSame(123, [1, 2]));
+console.log(isSame([1, 2, 3], [1, 2, 3]));
